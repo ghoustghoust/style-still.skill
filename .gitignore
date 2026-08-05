@@ -1,0 +1,7 @@
+# WorkBuddy 内部工作区内存（任务列表 / 记忆笔记），不纳入 skill 仓库
+.workbuddy/
+
+# 通用忽略项
+node_modules/
+.DS_Store
+*.log

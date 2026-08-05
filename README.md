@@ -134,7 +134,7 @@ Agent 会把三个 Skill 目录全部装入 skills 目录。**合集装好后，
 
 已蒸馏好的文风档案、知识档案、骨架与成稿样例，存放于私有仓库（仅协作者可见，无权限访问将返回 404）：
 
-**[style-still-data](https://github.com/ghoustghoust/style-still-data)** — 需要访问权限请在 Issue 中说明用途并申请成为协作者。
+**[style-still.skill-data_warehouse](https://github.com/ghoustghoust/style-still.skill-data_warehouse)** — 需要访问权限请在 Issue 中说明用途并申请成为协作者。
 
 ## License
 

@@ -95,13 +95,15 @@
 
 ## 安装
 
-在支持 Skill 的 Agent 里直接说：
+**装整个合集（推荐）**：在支持 Skill 的 Agent 里直接说：
 
 ```
-帮我安装这个 skill：https://github.com/ghoustghoust/style-still.skill/tree/main/book-style-distill
+帮我安装这个 skill 合集：https://github.com/ghoustghoust/style-still.skill
 ```
 
-把末尾换成 `knowledge-distill` 或 `wechat-writer` 即装对应 Skill；全要就装三个。也可手动把对应目录复制到 Agent 的 skills 目录（如 `~/.agents/skills/`）。
+Agent 会把三个 Skill 目录全部装入 skills 目录。**合集装好后，技能之间可以互相触发**：写公众号时会自动发现并使用已有的文风档案/知识档案，缺档案时会提示你先蒸一份（见各 Skill 的 fallback 钩子）。
+
+**只装单个**：把上面地址末尾加上 `/tree/main/book-style-distill`（或 `knowledge-distill`、`wechat-writer`）即装对应 Skill。也可手动把对应目录复制到 Agent 的 skills 目录（如 `~/.agents/skills/`）。
 
 **环境要求**：Python 3.8+（仅标准库，零依赖；pdf 抽取需 PyMuPDF）。没有 Python 也能用——脚本只是加速器。
 

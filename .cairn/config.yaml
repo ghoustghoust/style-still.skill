@@ -1,0 +1,14 @@
+version: 0.1
+project:
+  name: "style-still"
+  summary: "文风蒸馏所：双模式 Agent Skill——蒸馏书籍文风为《文风档案》，再按档案 spec 式分步写作/润色"
+cairn:
+  knowledge_dir: "cairn"
+  skill_spec_date: "2026-07-16"
+  git_policy: "track"
+  language: "zh"
+graduation:
+  # 暂缓对接（deferred）：首次毕业时再收集 provider 决策
+  provider: none
+history:
+  migration_mode: "start_fresh"
